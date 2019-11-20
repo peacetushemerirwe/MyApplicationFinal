@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="opaque_orange">#F10B76</color>
+    <color name="translucent_orange">#00574b</color>
+    <color name="colorPrimary">#FC0738</color>
+    <color name="black">#00AA74</color>
+    <color name="red">#FFEB3B</color>
+    <color name="wht">#fff</color>
+
+</resources>

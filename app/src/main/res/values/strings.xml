@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">SMART SECURITY LIGHTS </string>
+    <string name="face"> protecting you </string>
+    <string name="on">turn bluetooth on</string>
+    <string name="off"> turn bluetooth off</string>
+    <string name="sett">Recycler View</string>
+    <string name="switch1">scanning for blutooth device</string>
+    <string name="Off">device discoverable</string>
+    <string name="On">show Paired Devices</string>
+    <string name="Visible">getVisible</string>
+    <string name="blue">Bluetooth</string>
+    <string name="s">DSearch</string>
+    <string name="Finish">finish discovery</string>
+    <string name="noDevice">no device found</string>
+    <string name="none_paired"> non paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+
+    <string name="enter_name">Device Name</string>
+    <string name="add_record">Add Record</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="empty_list_text">No records found</string>
+    <string name="enter_desc">DATE</string>
+    <string name="enter_title">REASON</string>
+    <string name="Reg"> keep system records</string>
+    <string name="list"> View new devices</string>
+
+
+    <string name="button_connect">Connect</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="title_devices">Devices</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan">Scan</string>
+    <string name="stopScan">Stop Scanning</string>
+    <string name="togglebtn">Toggle Lights</string>
+
+    <string name="list_activity">list activity</string>
+    <string name="toolbarTitle">Android Bluetooth Example</string>
+    <string name="openbt">Open Bluetooth</string>
+    <string name="makeVisible">Make Bluetooth Visible</string>
+    <string name="findDevices">Find Devices</string>
+    <string name="downloadA">download</string>
+    <string name="chat">bluetooth chat</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+    <!--  DeviceListActivity -->
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="share">share</string>
+
+
+</resources>
