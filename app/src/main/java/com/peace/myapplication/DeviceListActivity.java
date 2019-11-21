@@ -35,7 +35,12 @@ public class DeviceListActivity extends Activity {
         setContentView(R.layout.device_list_activity);
         // Set result CANCELED incase the user backs out
         setResult(Activity.RESULT_CANCELED);
-
+        Button recyclerView = (Button) findViewById(R.id.button_recycler);
+        recyclerView.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(DeviceListActivity.this,Smart.class));
+            }
+        });
         // Initialize the button to perform device discovery
         Button scanButton = (Button) findViewById(R.id.button_scan);
         scanButton.setOnClickListener(new View.OnClickListener() {

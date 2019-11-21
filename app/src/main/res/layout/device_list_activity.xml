@@ -23,6 +23,7 @@
         android:id="@+id/title_new_devices"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
         android:background="#666"
         android:paddingLeft="5dp"
         android:text="@string/title_other_devices"
@@ -35,16 +36,19 @@
         android:layout_height="wrap_content"
         android:layout_weight="2"
         android:stackFromBottom="true" />
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/my_image"/>
 
     <Button
         android:id="@+id/button_scan"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
         android:text="@string/button_scan" />
+    <Button
+        android:id="@+id/button_recycler"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/sett" />
 
 
 

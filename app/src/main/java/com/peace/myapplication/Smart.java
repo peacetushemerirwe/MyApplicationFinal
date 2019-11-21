@@ -19,11 +19,19 @@ public class Smart extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.smarti);
         ArrayList<Items> itemlist=new ArrayList<>();
-        itemlist.add(new Items(R.drawable.ic_phonelink_ring_black_24dp,"connecting", "Must wait"));
-        itemlist.add(new Items(R.drawable.ic_settings_remote_black_24dp,"connecting remotely", "Use this app to know the type"));
-        itemlist.add(new Items(R.drawable.ic_highlight_black_24dp,"lights on ", "Stay connected"));
+        itemlist.add(new Items(R.drawable.ic_phonelink_ring_black_24dp,"contact_us", "o754536512"));
+        itemlist.add(new Items(R.drawable.ic_settings_remote_black_24dp,"google keep", "Use this app to keep data"));
+        itemlist.add(new Items(R.drawable.ic_highlight_black_24dp,"lights on ", "use this app to control lights"));
         itemlist.add(new Items(R.drawable.ic_share_black_24dp,"share our app", "Thank you"));
-        itemlist.add(new Items(R.drawable.ic_highlight_off_black_24dp,"Lghts off", "thanks for using our app"));
+        itemlist.add(new Items(R.drawable.ic_highlight_off_black_24dp,"hangouts", "thanks for using our app"));
+        itemlist.add(new Items(R.drawable.ic_get_app_black_24dp,"share our app", "Thank you"));
+        itemlist.add(new Items(R.drawable.ic_inbox_black_24dp,"hangouts", "thanks for using our app"));
+        itemlist.add(new Items(R.drawable.ic_insert_comment_black_24dp,"share our app", "Thank you"));
+        itemlist.add(new Items(R.drawable.ic_inbox_black_24dp,"hangouts", "thanks for using our app"));
+        itemlist.add(new Items(R.drawable.ic_share_black_24dp,"share our app", "Thank you"));
+        itemlist.add(new Items(R.drawable.ic_delete_black_24dp,"hangouts", "thanks for using our app"));
+        itemlist.add(new Items(R.drawable.ic_info_black_24dp,"share our app", "Thank you"));
+        itemlist.add(new Items(R.drawable.ic_highlight_off_black_24dp,"hangouts", "thanks for using our app"));
 
 
         recycle= findViewById(R.id.recycle);

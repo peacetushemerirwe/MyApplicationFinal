@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 recreate();
             }
         });
+
         Button discoverable =(Button)findViewById(R.id.off1);
         discoverable.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         Button rbroadcast;
-        rbroadcast=findViewById(R.id.paybtn);
+        rbroadcast=findViewById(R.id.receivebroadcast);
         rbroadcast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -87,9 +88,9 @@ public class MainActivity extends AppCompatActivity {
                 sendBroadcast(intent);
             }
         });
-         Button searchdevices;
-         searchdevices=findViewById(R.id.searchdevice);
-         searchdevices.setOnClickListener(new View.OnClickListener() {
+         Button records;
+         records=findViewById(R.id.systemrecords);
+         records.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {
                  startActivity(new Intent(MainActivity.this,DeviceList.class));
@@ -117,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void sendNotification(View view){
-        NotificationCompat.Builder mBulder=new NotificationCompat.Builder(this).setSmallIcon(R.drawable.ic_light_sunny_black_24dp).setContentTitle("My notification").setContentText("Hollow");
+        NotificationCompat.Builder mBulder=new NotificationCompat.Builder(this).setSmallIcon(R.drawable.ic_light_sunny_black_24dp).setContentTitle("My notification").setContentText("received message");
         NotificationManager mNotificationManager=(NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
         mNotificationManager.notify(001,mBulder.build());
 

@@ -13,6 +13,13 @@
         android:layout_marginLeft="150dp"
         android:checked="false"
         android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_wb_sunny_black_24dp"
+        android:layout_toLeftOf="@id/checkboxLight1"
+        android:layout_marginTop="50dp"
+        />
     <Button
         android:id="@+id/list_activity"
         android:layout_width="fill_parent"
@@ -29,7 +36,6 @@
         android:textSize="15dp"
         android:textAlignment="center"
         android:id="@+id/off"></Button>
-
     <Button
         android:id="@+id/button_download"
         android:layout_width="fill_parent"
@@ -55,7 +61,7 @@
         android:textColor="@color/wht"
         android:textSize="15dp"
         android:background="@color/black"
-        android:id="@+id/paybtn"
+        android:id="@+id/receivebroadcast"
         />
     <Button
         android:layout_width="match_parent"
@@ -65,7 +71,7 @@
         android:textSize="15dp"
         android:textColor="@color/wht"
         android:background="@color/black"
-        android:id="@+id/searchdevice"
+        android:id="@+id/systemrecords"
         />
     <Button
         android:layout_width="match_parent"
